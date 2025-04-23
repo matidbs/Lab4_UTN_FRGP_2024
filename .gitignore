@@ -1,0 +1,35 @@
+# Ignorar archivos compilados
+*.class
+
+# Ignorar carpetas del IDE
+/.idea/
+/*.iml
+*.iws
+*.ipr
+
+# Ignorar carpetas de Eclipse
+.classpath
+.project
+.settings/
+
+# Ignorar carpetas de NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# Ignorar carpetas de construcción comunes
+/out/
+target/
+bin/
+
+# Ignorar archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Si usás Maven o Gradle, ignorar dependencias
+.mvn/
+.gradle/
+build
