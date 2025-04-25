@@ -21,7 +21,8 @@ public class Principal {
 		e4.setEdad(21);
 		e5.setNombre("Camila");
 		e5.setEdad(23);
-		
+
+		//Se debería haber guardado los objetos en una array y mostrarlo con un foreach 
 		System.out.println(e1.toString());
 		System.out.println(e2.toString());
 		System.out.println(e3.toString());
